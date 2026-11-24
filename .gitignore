@@ -1,0 +1,32 @@
+# Build outputs
+out/
+build/
+*.o
+*.ko
+*.cmd
+*.dtb
+*.dtbo
+vmlinux
+System.map
+
+# Android boot and recovery images
+boot.img
+vendor_boot.img
+magisk_patched*.img
+recovery.img
+
+# Downloaded toolchains and source trees
+toolchain/
+sources/
+
+# Local environment
+.env
+.env.*
+*.log
+*.tmp
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
